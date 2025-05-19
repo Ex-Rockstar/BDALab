@@ -33,7 +33,12 @@ javac -version
 ```bash
 sudo adduser hdoop
 ```
+Add root access to hdoop -> and update the file below root 
 
+```bash
+sudo visudo
+hdoop ALL=(ALL:ALL)ALL
+```
 Switch to the new user:
 
 ```bash
